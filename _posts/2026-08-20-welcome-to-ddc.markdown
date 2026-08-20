@@ -7,13 +7,11 @@ categories:
 Welcome to DDC Academy R&D Center. This site is under building right now.
 
 $$
-\begin{equation}
 \label{eq:transformer_equation}
 Attention(Q, K, V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V
-\end{equation}
 $$
 
-如公式 \eqref{eq:transformer_equation} 所示，注意机制的核心在于...
+如公式 $\eqref{eq:transformer_equation}$ 所示，注意机制的核心在于...
 
 ````python
 # 这是一个 Python 代码示例
