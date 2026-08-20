@@ -1,3 +1,13 @@
-<!-- 加载 MathJax -->
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<!-- 配置 MathJax 定界符 -->
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']],
+      processEscapes: true
+    }
+  };
+</script>
+<!-- 加载 MathJax v3 (已移除失效的 polyfill) -->
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
